@@ -1,26 +1,114 @@
+
+header{
+
+    color: yellow;
+}
 body {
-  font-size: 14px;
+  font-size: 18px;
   font-family: 'Roboto Slab', serif;
   color: #240f20;
-  width: 700px;
+  width: 1100px;
   max-width: 90%;
   margin: auto;
   background-color: rgba(201, 194, 194, 0.897);
+  background-image: url(https://tipsmake.com/data/images/100-most-beautiful-background-picture-2-O1DlX9Nzx.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+} 
+#date{
+    margin-bottom: 0%;
+    white-space:nowrap;
+    
+    
+    
 
 
+}
+#name{
+    
+    
+    
+        
+
+
+}
+h1{
+    text-align: center;
+}
+h2{
+    text-align: center;
+}
+hr.new1 {
+    width: 62%;
+    margin:center;
+}
+hr.new2 {
+    width:14%; 
+    margin: center;
+}
+hr.new3 {
+    width: 16%;
+    margin: center;
+}
+
+h3{
+    text-align: center;
 }
 q {
   font-size: 14px;
   font-family: 'Roboto Slab', serif;
   color: #240f20;
   font-style: italic;
-  font-weight: bold
+  font-weight: bold;
+  
+
   
 }
 
+ul {
+    display: inline-block;
+}
+
+ul li{
+    margin: 5px auto;
+    padding-right: 25px;
+    color: #240f20;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right;
+    
+    
+    
+      
+}
+
+#good{
+    list-style-image: url(https://lh3.googleusercontent.com/UUy8xdQdENgkp4kC65QYCy-aXhAWYzhNP2CuhFdBItXgz3zdfEulHBuCWRG9iKz2gRGEHA=s50)
+
+}
+.bad{
+    background-image: url(https://static.thenounproject.com/png/466573-200.png);
+    
+}
+/*
+}#cats{
+    list-style-image: url(https://github.com/becodeorg/bxl-hopper-1-25/raw/master/The%20Field/3.HTML%2BCSS/0.progressive_enhancement/chat.png) ;
+
+}
+#none{
+    list-style-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/NOTA_Option_Logo.png/708px-NOTA_Option_Logo.png) ;
+}
+img.photo{
+    width: 100%;
+    border: 2px solid rgb(236, 227, 240);
+   
+*/
+
+}
 p {
 	
     line-height: 2.5;
+    margin-bottom: 4em;
 }
 
 
@@ -28,6 +116,7 @@ figure {
   border: 1px #cccccc solid;
   padding: 4px;
   margin: auto;
+  
 }
 
 figcaption {
@@ -36,16 +125,19 @@ figcaption {
   font-style: italic;
   padding: 2px;
   text-align: center;
-  width: 700px;
+  width: 100%;
   
 }
 
 table, th, td {
   border: 1px solid black;
   width: 700px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 a:link {
-    color: blue;
+    color: rgb(255, 0, 234);
   }
 
 a:visited {
@@ -53,18 +145,43 @@ a:visited {
   }
 
 a:hover {
-    color: hotpink;
+    color: rgb(105, 255, 255);
 }
 a:active{
 
-    color: aqua;
+    color: rgb(255, 196, 0);
     text-decoration: underline;
 }
 
 blockquote{
     
     margin: auto;
+    font-size:160%;
+    font-style: italic;
+    font-weight: bold;
+    padding: 30x;
+    background-color: rgb(192, 192, 192);
+    margin-top: 80px;
+    margin-bottom: 80px;
+    display: inline;  
+}
+#villagers{
+    border-left: solid 3px firebrick;
 
 }
+#farmer{
+    border-left: solid 3px rgb(23, 168, 31);
 
-
+}
+.Good{
+    color: green;
+    text-transform: capitalize;
+}
+.Bad{
+    color: red;
+}
+}
+#question{
+    text-size-adjust: 20px;
+    text-align: center;
+}
