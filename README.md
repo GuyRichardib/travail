@@ -10,7 +10,7 @@ Project realised by Guy Richar Ibambasi on the 28th of Octobre 2020
 ## HTML
 
 * Semantics (structutre)
-* Tags (<p>,..)
+* Tags p,..)
 * Links
 * Table
 * Syntax (selector, attribute ;etc.)
