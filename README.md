@@ -15,7 +15,7 @@ Project realised by Guy Richar Ibambasi on the 28th of Octobre 2020
 * Table
 * Syntax (selector, attribute ;etc.)
 ---
-##CSS
+## CSS
 * Color(
 * Block Model (width, height,margin..)
 * Flexbox
