@@ -29,4 +29,4 @@ Project realised by Guy Richar Ibambasi on the 28th of Octobre 2020
 
 ### Website sample
 
-[!image](https://github.com/GuyRichardib/travail/blob/main/sample.png?raw=true)
+![image](https://github.com/GuyRichardib/travail/blob/main/sample.png?raw=true)
