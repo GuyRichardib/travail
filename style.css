@@ -2,35 +2,48 @@
 header{
 
     color: yellow;
+    text-align: center;
+        
 }
+/* Body*/
+
 body {
-  font-size: 18px;
+  
   font-family: 'Roboto Slab', serif;
   color: #240f20;
-  width: 1100px;
   max-width: 90%;
   margin: auto;
+  padding: 0;
   background-color: rgba(201, 194, 194, 0.897);
   background-image: url(https://tipsmake.com/data/images/100-most-beautiful-background-picture-2-O1DlX9Nzx.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
 } 
+
+/*INTRO*/
+
+.intro{
+    text-align: center;
+
+}
+    
 #date{
     margin-bottom: 0%;
     white-space:nowrap;
-    
-    
-    
-
-
 }
 #name{
-    
-    
-    
-        
+}
+    /*INTRO TEXTE*/
 
+.text{
+    text-align: center;
 
+}
+    
+/* Titles*/
 }
 h1{
     text-align: center;
@@ -53,58 +66,60 @@ hr.new3 {
 
 h3{
     text-align: center;
+
 }
 q {
   font-size: 14px;
   font-family: 'Roboto Slab', serif;
   color: #240f20;
   font-style: italic;
-  font-weight: bold;
-  
-
-  
+  font-weight: bold;  
 }
+/* List*/
 
 ul {
     display: inline-block;
 }
 
 ul li{
-    margin: 5px auto;
+    margin:auto;
     padding-right: 25px;
-    color: #240f20;
     background-repeat: no-repeat;
     background-size: contain;
     background-position: right;
-    
-    
-    
-      
+         
 }
+/* BACKGROUND IMAGES(cat,good,bad)*/
 
+<<<<<<< HEAD
+.{
+    list-style-image: url(https://github.com/GuyRichardib/travail/blob/main/bien.png?raw=true);
+    
+=======
 #good{
     list-style-image: url(https://github.com/GuyRichardib/travail/blob/main/bien.png?raw=true)
 
+>>>>>>> f909eb46b38f203900e7d09995afcef7e38ccbef
 }
 .bad{
-    background-image: url(https://static.thenounproject.com/png/466573-200.png);
+    background-image: url(https://github.com/GuyRichardib/travail/blob/main/mal.png?raw=true);
     
 }
-/*
-}#cats{
-    list-style-image: url(https://github.com/becodeorg/bxl-hopper-1-25/raw/master/The%20Field/3.HTML%2BCSS/0.progressive_enhancement/chat.png) ;
+
+}.cats{
+    list-style-image: url(https://github.com/GuyRichardib/travail/blob/main/chat.png?raw=true) ;
 
 }
-#none{
-    list-style-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/NOTA_Option_Logo.png/708px-NOTA_Option_Logo.png) ;
+.none{
+    
 }
 img.photo{
     width: 100%;
     border: 2px solid rgb(236, 227, 240);
-   
+  } 
 */
 
-}
+/* Paragraph*/
 p {
 	
     line-height: 2.5;
@@ -128,6 +143,7 @@ figcaption {
   width: 100%;
   
 }
+/* Table*/
 
 table, th, td {
   border: 1px solid black;
@@ -135,6 +151,16 @@ table, th, td {
   text-align: center;
   margin-left: auto;
   margin-right: auto;
+}
+
+.grey {
+    background-color: grey;
+}
+.white{
+    background-color: white;
+
+/*  Link*/
+
 }
 a:link {
     color: rgb(255, 0, 234);
@@ -152,6 +178,7 @@ a:active{
     color: rgb(255, 196, 0);
     text-decoration: underline;
 }
+/* Quotes*/
 
 blockquote{
     
@@ -165,6 +192,7 @@ blockquote{
     margin-bottom: 80px;
     display: inline;  
 }
+/* ID(villager/farmer*/
 #villagers{
     border-left: solid 3px firebrick;
 
@@ -180,8 +208,83 @@ blockquote{
 .Bad{
     color: red;
 }
-}
+
 #question{
     text-size-adjust: 20px;
     text-align: center;
+}
+/* FLEX BOX*/
+
+.container{
+    position: relative;
+    flex-direction: column;
+    height: 500px;
+    width: 1000px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    
+    
+
+}
+.container .box{
+    position: relative;
+    
+    box-sizing: border-box ;
+    border-radius: 4px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, .5);
+    background: #dbdfeb;
+    padding: 20px;
+    margin: 15px;
+    overflow: auto;
+    display: flex;
+}
+.container .box .imgBx{
+    max-width: 475px;
+    flex: 0 0 475px; 
+}
+
+.container .box .imgBx img{
+    max-width: 100%;
+
+}
+.container .box .content{
+    margin-left: 20px;
+}
+.container .box p{
+    margin: 0;
+    padding: 10px 0 0;
+    text-align: justify;
+}
+@media (max-width: 1000px){
+
+    .container{
+        flex-direction: column;
+
+    }
+    .container .box{
+        flex-direction: column;
+        max-width: 350px;
+    }
+    .container .box .imgBx{
+        
+        max-width: 100%;
+    }
+    .container .box .content{
+        margin-left: 20px;
+    }
+}
+/*CONCLUSION */
+.conclusion{
+    text-align: center;
+
+
+}
+/*FOOTER*/
+
+footer{
+
+text-align: center;
 }
